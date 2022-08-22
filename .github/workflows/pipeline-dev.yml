@@ -6,7 +6,7 @@ on:
 
 env:
   REGISTRY: lsmcba
-  IMAGE_NAME: bootcamp-backend-docker
+  IMAGE_NAME: bootcamp-backend-docker-lsm
 
 jobs:
 
