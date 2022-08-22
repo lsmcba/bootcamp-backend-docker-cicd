@@ -90,7 +90,7 @@ jobs:
       - uses: akhileshns/heroku-deploy@v3.12.12 # This is the action
         with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-          heroku_app_name: "bootcamp-backend-docker" #Must be unique in Heroku
+          heroku_app_name: "bootcamp-backend-docker-lsm" #Must be unique in Heroku
           heroku_email: "lsmcba@gmail.com"
           usedocker: true  
 
@@ -105,4 +105,4 @@ jobs:
       - name: ZAP Scan
         uses: zaproxy/action-baseline@v0.7.0
         with:
-          target: 'https://bootcamp-backend-docker.herokuapp.com/'          
+          target: 'https://bootcamp-backend-docker-lsm.herokuapp.com/'          
