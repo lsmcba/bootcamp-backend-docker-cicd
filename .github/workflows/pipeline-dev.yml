@@ -5,7 +5,7 @@ on:
     branches: [ "developer" ]
 
 env:
-  REGISTRY: roxsross12
+  REGISTRY: lsmcba
   IMAGE_NAME: bootcamp-backend-docker
 
 jobs:
