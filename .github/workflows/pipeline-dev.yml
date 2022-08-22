@@ -2,7 +2,7 @@ name: pipeline
 
 on:
   push:
-    branches: [ "develop" ]
+    branches: [ "developer" ]
 
 env:
   REGISTRY: roxsross12
